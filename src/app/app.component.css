@@ -1,0 +1,57 @@
+.ml-auto{
+	z-index: 20;
+}
+
+.icono-bar{
+	font-size: 30px;
+	color: #fff;
+	
+}
+
+.icono-bar:hover{
+	cursor: pointer;
+}
+
+.menu{
+	/*position: fixed;*/
+	right: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(74, 138, 244, .9);
+	z-index: 10;
+	transition: transform 0.6s ease-in-out;
+	transform: translateX(100%);
+}
+
+.menu-items{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.menu-items ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-items ul li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-items ul li a{
+	color: white;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.menu-activado{
+	transform: translateX(0);
+}
+
+.icono-info{
+	font-size: 25px;
+}
